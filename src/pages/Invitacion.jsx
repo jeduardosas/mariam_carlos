@@ -78,7 +78,7 @@ const Invitacion = () => {
         <div className="datos-item">
           <div className="datos-item_tittle">
             <div className="datos-item_tittle-icon">
-              <img src="" alt="" />
+              <img src="./icons/CHURCH.svg" alt="" />
             </div>
             <div className="datos-item_tittle-tittle">
               <p>Ceremonia Religiosa</p>
@@ -87,8 +87,8 @@ const Invitacion = () => {
 
           <div className="datos-item_body">
             <div className="datos-item_body-hn">
-              <p>{religiosa_hora} : {religiosa_minutos}</p>
-              <p>{religiosa_lugar}</p>
+              <p className="datos-item_body-hn-h">{religiosa_hora} : {religiosa_minutos} hrs.</p>
+              <p className="datos-item_body-hn-n">{religiosa_lugar}</p>
             </div>
             <div className="datos-item_body-direc">
               <p>{religiosa_direccion}</p>
@@ -108,7 +108,7 @@ const Invitacion = () => {
         <div className="datos-item">
           <div className="datos-item_tittle">
             <div className="datos-item_tittle-icon">
-              <img src="" alt="" />
+              <img src="./icons/recepcion.svg" alt="" />
             </div>
             <div className="datos-item_tittle-tittle">
               <p>Recepción</p>
@@ -117,8 +117,8 @@ const Invitacion = () => {
 
           <div className="datos-item_body">
             <div className="datos-item_body-hn">
-              <p>{recepcion_hora} : {recepcion_minutos}</p>
-              <p>{recepcion_lugar}</p>
+              <p className="datos-item_body-hn-h">{recepcion_hora} : {recepcion_minutos} hrs.</p>
+              <p className="datos-item_body-hn-n">{recepcion_lugar}</p>
             </div>
             <div className="datos-item_body-direc">
               <p>{recepcion_direccion}</p>

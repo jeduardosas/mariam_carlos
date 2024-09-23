@@ -88,14 +88,64 @@
   align-items: center;
 }
 .datos-tittle{
+  margin-bottom: 30px;
   font-size: 30px;
   text-transform: uppercase;
   letter-spacing: 4px;
   color:#6e6e6e;
 }
 .datos-item{
+  padding: 20px;
   background-color: #f5f0ea;
   width: 100%;
   margin-bottom:30px ;
-
+  border-bottom-left-radius:90px ;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.datos-item_tittle{
+  width: 100%;
+  display:flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.datos-item_tittle-icon img{
+  width: 50px;
+}
+.datos-item_tittle-tittle p{
+  font-style: italic;
+  letter-spacing: 3px;
+  font-size: 18px;
+}
+.datos-item_body{
+  width: 100%;
+}
+.datos-item_body-hn{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 20px;
+}
+.datos-item_body-hn-h{
+  font-size: 28px;
+}
+.datos-item_body-hn-n{
+  font-size: 18px;
+  font-weight: bold;
+  
+}
+.datos-item_body-direc{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  font-family: var(--fuenteSecundaria);
+}
+.datos-item_body-direc p{
+  
+  font-size: 16px;
 }
