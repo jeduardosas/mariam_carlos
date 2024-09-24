@@ -6,51 +6,51 @@ import '../styles/timeline.css'
 const TimeLine = () => {
 
   const settings = {
-    bgColor:'var(--color_principal)',
-    color:'#fff',
-    lineColor:'var(--color_timeline)'
+    bgColor:'#f5f0ea',
+    color:'#A5A58D',
+    lineColor:'#f5f0ea'
 
   }
   const protocol = [
     {
       id:1,
-      time:'19:00 PM',
-      name:'Recepción y Ceremonia Civil',
-      icon:'rings_white',
+      time:'17:00 Hrs',
+      name:'Ceremonia Religiosa',
+      icon:'CHURCH',
       color:'var(--color_timeline)',
       textColor:'rgb(218 167 88)'
     },
 
     {
       id:2,
-      time:'20:00 PM',
-      name:'protocolo',
-      icon:'drinking_white',
+      time:'18:00 Hrs',
+      name:'Recepción',
+      icon:'recepcion',
       color:'var(--color_timeline)',
       textColor:'rgb(218 167 88)'
     },
 
     {
       id:3,
-      time:'21:00 PM',
-      name:'buen provecho',
-      icon:'cutlery_white',
+      time:'19:00 Hrs',
+      name:'Ceremonia Civil',
+      icon:'votos_boda',
       color:'var(--color_timeline)',
       textColor:'rgb(218 167 88)'
     },
 
     {
       id:4,
-      time:'22:00 PM',
-      name:'hasta que el cuerpo aguante',
-      icon:'music_white',
+      time:'20:00 Hrs',
+      name:'Protocolo',
+      icon:'brindis',
       color:'var(--color_timeline)',
       textColor:'rgb(218 167 88)'
     },
   ]
   return (
     <div className='timeline'>
-      <h3 className='timeline-title-cont'>Protocolo</h3>
+      <h3 className='timeline-title-cont'>Itinerario</h3>
       <VerticalTimeline
       lineColor={`${settings.lineColor}`}
       >
@@ -64,7 +64,8 @@ const TimeLine = () => {
               contentStyle={
                 { background: `${settings.bgColor}`,
                   color:`${settings.color}`,
-                  marginRight:'10px' }}
+                  marginRight:'10px',
+                  boxShadow:'none'}}
               contentArrowStyle={
                 { borderRight: `7px solid ${settings.bgColor}`}}
               date=
@@ -76,7 +77,7 @@ const TimeLine = () => {
                 fill: `${settings.bgColor}`,
                 boxShadow:`0 0 0 4px ${settings.bgColor}`}} 
               icon={
-                <img src={`/img/icons/${item.icon}.svg`} 
+                <img src={`/icons/${item.icon}.svg`} 
                 alt={`ico-${item.icon}`} 
                 className='custom-icon'/>}
             >

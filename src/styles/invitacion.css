@@ -149,3 +149,81 @@
   
   font-size: 16px;
 }
+
+.datos-item-fotter{
+  margin-top: 30px;
+}
+
+.datos-item-fotter-button{
+  padding: 10px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius:20px ;
+  background-color: var(--color_principal);
+}
+.datos-item-fotter-button a{
+  color: #f5f0ea;
+  font-family: var(--fuenteSecundaria);
+}
+
+/*:::::::::R E G A L O S::::::::::*/
+.regalos{
+  width: 100%;
+  margin-top: 50px;
+  background-color: var(--color_principal);
+  padding: 30px;
+  box-sizing: border-box;
+}
+.regalos-sobres{
+  margin-bottom: 50px;
+}
+
+.regalos-sobres,
+.regalos-mesa{
+  width: 100%;
+}
+
+.regalos-sobres-tittle,
+.regalos-mesa-tittle{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.regalos-sobres-tittle img,
+.regalos-mesa-tittle img{
+  width: 50px;
+}
+.regalos-sobres-tittle h3,
+.regalos-mesa-tittle h3{
+  color: #6e6e6e;
+  letter-spacing: 2px;
+  font-style: italic;
+}
+.regalos-sobres-body,
+.regalos-mesa-body{
+  width: 100%;
+}
+.regalos-sobres-body p,
+.regalos-mesa-body p{
+  margin-top: 15px;
+  color:#f5f0ea;
+}
+
+.regalos-sobres-fotter,
+.regalos-mesa-fotter{
+  width: 100%;
+}
+.regalos-mesa-fotter{
+  margin-top: 20px;
+}
+
+.regalos-mesa-fotter button{
+  padding: 10px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius:20px ;
+  background-color: #f5f0ea;
+}
+.regalos-mesa-fotter button a{
+  color: var(--color_principal);
+  font-family: var(--fuenteSecundaria);
+}
