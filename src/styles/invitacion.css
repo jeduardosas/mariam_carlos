@@ -1,48 +1,10 @@
 /*::::::::: H E A D E R ::::::::::*/
 .header{
   max-width: 100%;
-  height: auto;
-  min-height: 93vh;
-  background-image: url('/img/back.webp');
-  background-size: cover;
-  background-position: center center;
   background-attachment: fixed;
-  overflow: hidden;
 }
-@media (min-width: 768px) {
-    .header{
-      background-size: contain;
-      min-height: 100vh;
-    }
-}
-
-.header_names-container{
-  position: absolute;
-  background-color: rgba(0, 0, 0,.4);
-  top: 0;
-  left: 0;
-  bottom:0;
-  right: 0;
-  display: flex;
-  flex-direction: column;
-  justify-content:center;
-  align-items: center;
-}
-
-.header_names{
-  display:flex;
-  flex-direction:column;
-  justify-content: center;
-  align-items:center;
-}
-.header_names-container-fake{
-
-  height: 20vh;
-}
-.header_names p{
-  line-height: 1;
-  color: #fff;
-  font-size:40px;
+.header img{
+  width: 100%;
 }
 
 /*::::::::: C O N T A D O R ::::::::::*/

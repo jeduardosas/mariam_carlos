@@ -108,16 +108,9 @@ const Invitacion = () => {
         play && (
           <>
             <section className="header">
-        
-              <div className="header_names-container">
-                <div className="header_names">
-                  <p>{nombre_novia}</p>
-                  <p>&</p>
-                  <p>{nombre_novio}</p>
-                </div>
-
-                <div className="header_names-container-fake"></div>
-              </div>
+             
+              <img src="./img/header.webp" alt="" />
+            
             </section>
 
             <section className="contador centrar">
