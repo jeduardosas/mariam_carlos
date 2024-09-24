@@ -43,13 +43,21 @@ const Slider = () => {
       original:'/img/originals/10.webp',
       thumbnail:'/img/thumbnails/small_10.webp'
     },
+    {
+      original:'/img/originals/11.webp',
+      thumbnail:'/img/thumbnails/small_11.webp'
+    },
+    {
+      original:'/img/originals/12.webp',
+      thumbnail:'/img/thumbnails/small_12.webp'
+    },
   ];
 
   
 
   return(
-    <div style={{width:'95vw',margin:'auto'}}>
-      <h3 className='slider-title'>Galería </h3>
+    <div className='galeria' >
+      <h3 className='galeria-title'>Galería </h3>
       <ImageGallery
         lazyLoad={true}
         items={images}

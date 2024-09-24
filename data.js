@@ -27,7 +27,7 @@ const data = {
   recepcion_direccion_col:'Ciudad Industrial',
   recepcion_direccion_cd:'Iguala de la Independencia.',
   recepcion_ubicacion:'https://maps.app.goo.gl/erq3LJEaxZQDhqoZ8',
-  confirmacion_novia:'',
+  confirmacion_novia:'2204633145',
   confirmacion_novio:'',
   regalos_frase:'',
   regalos_url:'https://mesaderegalos.liverpool.com.mx/milistaderegalos/51513332'

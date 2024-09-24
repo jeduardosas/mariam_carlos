@@ -4,20 +4,25 @@
 
 .modal-tittle-2{
   margin-bottom: 20px;
-  font-family: var(--cursiva);
   font-size: 50px;
+}
+.modal-tittle-2 p{
+  font-size: 35px;
+  color:#f5f0ea;
 }
 
 .modal-content{
   margin-bottom: 20px;
-  
+  font-style: italic;
+  font-size: 18px;
 }
+
 .modal-button{
-  background-color:var(--color_principal) ;
-  color:var(--color_secundario);
+  background-color:var(--back-color) ;
   padding: 10px 15px;
-  font-size: 25px;
-  border-radius: 20px;
-  color:#fff;
+  font-size: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  color:#f5f0ea;
   cursor:pointer;
 }
