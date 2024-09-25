@@ -215,7 +215,7 @@ const Invitacion = () => {
                   <h3>Mesa de Regalos</h3>
                 </div>
                 <div className="regalos-mesa-body">
-                  <p>Si estas pensando en un regalo te dejamos aquí algunas opciones que serían de utilidad para nosotros.</p>
+                  <p>Si estás pensando en un regalo te dejamos aquí algunas opciones que serían de utilidad para nosotros.</p>
                 </div>
                 <div className="regalos-mesa-fotter">
                   <button>
@@ -236,8 +236,8 @@ const Invitacion = () => {
                 </div>
 
                 <section className="lugares-child">
-                  <p>Adoramos a sus hijos, pero queremos que en nuestra boda solo tengan que preocuparse por pasarla increible. </p>
-                  <span>Solo adultos, por favor.</span>
+                  <p>Adoramos a sus hijos, pero queremos que en nuestra boda sólo tengan que preocuparse por pasarla increíble. </p>
+                  <span>Sólo adultos, por favor.</span>
                 </section>
               </section>
 
@@ -271,12 +271,14 @@ const Invitacion = () => {
                 autoPlay={true}
                 preload="auto"
                 />
-              <button className="reproductor-boton" onClick={() => document.querySelector('audio').pause()}>
-                <img src="./icons/pausa.svg" alt="" />
-              </button>
-              <button className="reproductor-boton" onClick={() => document.querySelector('audio').play()}>
-                <img src="./icons/play.svg" alt="" />
-              </button>
+              
+                <button className="reproductor-boton" onClick={() => document.querySelector('audio').pause()}>
+                  <img src="./icons/pausa.svg" alt="" />
+                </button>
+                <button className="reproductor-boton" onClick={() => document.querySelector('audio').play()}>
+                  <img src="./icons/play.svg" alt="" />
+                </button>
+              
               
             </div>
       

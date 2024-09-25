@@ -15,7 +15,7 @@ const data = {
   fecha_year:'2024',
   religiosa_hora:'17',
   religiosa_minutos:'00',
-  religiosa_lugar:'Parroquia de San Gerardo Maria Mayela',
+  religiosa_lugar:'Parroquia de San Gerardo María Mayela',
   religiosa_direccion:'Abasolo 56',
   religiosa_direccion_col:'Centro',
   religiosa_direccion_cd:'Iguala de la Independencia.',

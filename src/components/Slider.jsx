@@ -1,59 +1,11 @@
 import ImageGallery from 'react-image-gallery'
+import getArray from '../functions/getArray';
 import 'react-image-gallery/styles/css/image-gallery.css'
 
 const Slider = () => {
-  const images = [
-    {
-      original:'/img/originals/1.webp',
-      thumbnail:'/img/thumbnails/small_1.webp'
-    },
-    {
-      original:'/img/originals/2.webp',
-      thumbnail:'/img/thumbnails/small_2.webp'
-    },
-    {
-      original:'/img/originals/3.webp',
-      thumbnail:'/img/thumbnails/small_3.webp'
-    },
-    {
-      original:'/img/originals/4.webp',
-      thumbnail:'/img/thumbnails/small_4.webp'
-    },
-    {
-      original:'/img/originals/5.webp',
-      thumbnail:'/img/thumbnails/small_5.webp'
-    },
-    {
-      original:'/img/originals/6.webp',
-      thumbnail:'/img/thumbnails/small_6.webp'
-    },
-    {
-      original:'/img/originals/7.webp',
-      thumbnail:'/img/thumbnails/small_7.webp'
-    },
-    {
-      original:'/img/originals/8.webp',
-      thumbnail:'/img/thumbnails/small_8.webp'
-    },
-    {
-      original:'/img/originals/9.webp',
-      thumbnail:'/img/thumbnails/small_9.webp'
-    },
-    {
-      original:'/img/originals/10.webp',
-      thumbnail:'/img/thumbnails/small_10.webp'
-    },
-    {
-      original:'/img/originals/11.webp',
-      thumbnail:'/img/thumbnails/small_11.webp'
-    },
-    {
-      original:'/img/originals/12.webp',
-      thumbnail:'/img/thumbnails/small_12.webp'
-    },
-  ];
+  const images = [];
 
-  
+  getArray(7,images) //funcion que llena el array de las imagenes, el primer parametro es el numero de imagenes, el segundo es el array que se va a llenar
 
   return(
     <div className='galeria' >
