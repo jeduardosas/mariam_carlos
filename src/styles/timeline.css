@@ -32,5 +32,12 @@
     width: 40px;
   }
 
+  @media (min-width: 1170px) {
+    .custom-icon{
+      width: 60px;
+    }
+    
+  }
+
   
 

@@ -30,9 +30,9 @@ const customStyles = {
 
 const Invitacion = () => {
   // D E ST R U C T U R A C I O N   D E   L A   D A T A   
-  const {img_header,
-          nombre_novia,
-          nombre_novio,
+  const {fecha_dia,
+          fecha_mes,
+          fecha_year,
           frase,
           religiosa_lugar,
           religiosa_direccion,
@@ -108,9 +108,7 @@ const Invitacion = () => {
         play && (
           <>
             <section className="header">
-             
               <img src="./img/header.webp" alt="" />
-            
             </section>
 
             <section className="contador centrar">
@@ -127,6 +125,23 @@ const Invitacion = () => {
       
             <section className="datos centrar">
               <h2 className="datos-tittle">¡Nos Casamos!</h2>
+
+              <section className='fecha'>
+                <div className="fecha-tittle">
+                  <p>Celebremos juntos el día</p>
+                </div>
+                <div className="fecha-container">
+                  <div className="fecha-dia">
+                    <p>{fecha_dia}</p>
+                  </div>
+                  <div className="fecha-mes">
+                    <p>{fecha_mes}</p>
+                  </div>
+                  <div className="fecha-year">
+                    <p>{fecha_year}</p>
+                  </div>
+                </div>
+              </section>
 
               <div className="datos-item">
                 <div className="datos-item_tittle">
@@ -198,7 +213,19 @@ const Invitacion = () => {
             <TimeLine />
 
             {/*::::::::::R E G A L O S :::::::::: */}
+
             <section className="regalos">
+
+            <div className="regalos-vestimenta">
+                <div className="regalos-vestimenta-tittle">
+                  <img src="./icons/vestimenta.svg" alt="" />
+                  <h3>Código de Vestimenta</h3>
+                </div>
+                <div className="regalos-vestimenta-body">
+                  <p>Etiqueta Formal</p>
+                </div>
+              </div>
+
               <div className="regalos-sobres">
                 <div className="regalos-sobres-tittle">
                   <img src="./icons/sobres.svg" alt="" />
@@ -223,6 +250,9 @@ const Invitacion = () => {
                   </button>
                 </div>
               </div>
+              
+
+              
 
               <Slider />
 
